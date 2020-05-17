@@ -10,7 +10,7 @@ public class Sandlab
         lab.run();
         ClearBoard();
     }
-
+    //Test
     // add constants for particle types here
     public static final int EMPTY = 0;
     public static final int CLEARBOARD = 1;
@@ -36,6 +36,7 @@ public class Sandlab
         names[LAVA] = "Lava";
         names[OBSIDIAN] = "Obsidian";
         display = new SandDisplay("Falling Sand", numRows, numCols, names);
+
     }
 
     // called when the user clicks on a location using the given tool
